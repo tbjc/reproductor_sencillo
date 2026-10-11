@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Musica</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_songs">Songs</string>
+    <string name="nav_albums">Albums</string>
+    <string name="nav_artists">Artists</string>
+    <string name="nav_playlists">Playlists</string>
+
+    <!-- Empty states -->
+    <string name="home_empty_title">Your library</string>
+    <string name="home_empty_message">When Musica scans your device, your music and playlists will show up here.</string>
+    <string name="songs_empty_title">No songs</string>
+    <string name="songs_empty_message">Songs stored on your device will appear here.</string>
+    <string name="albums_empty_title">No albums</string>
+    <string name="albums_empty_message">Albums from your library will appear here.</string>
+    <string name="artists_empty_title">No artists</string>
+    <string name="artists_empty_message">Artists from your library will appear here.</string>
+    <string name="playlists_empty_title">No playlists</string>
+    <string name="playlists_empty_message">Create your first playlist and it will show up here.</string>
+
+    <!-- Audio permission -->
+    <string name="media_permission_title">Access your music</string>
+    <string name="media_permission_message">Musica needs permission to read the audio files on your device and show your library. Your music stays only on your device.</string>
+    <string name="media_permission_request">Allow access</string>
+    <string name="media_permission_open_settings">Open settings</string>
+    <string name="media_permission_permanently_denied">The permission is blocked. Enable it in system settings to use Musica.</string>
+
+    <!-- Loading and error states -->
+    <string name="library_load_error">Couldn\'t load your library.</string>
+    <string name="library_retry">Retry</string>
+
+    <!-- Generic names -->
+    <string name="unknown_artist">Unknown artist</string>
+    <string name="unknown_album">Unknown album</string>
+
+    <!-- Home -->
+    <string name="home_stat_songs">Songs</string>
+    <string name="home_stat_albums">Albums</string>
+    <string name="home_stat_artists">Artists</string>
+    <string name="home_recent">Recent</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_open">Settings</string>
+    <string name="settings_appearance_title">Appearance</string>
+    <string name="settings_theme_title">Theme</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_dynamic_color_title">Dynamic color</string>
+    <string name="settings_dynamic_color_summary">Uses the colors of your wallpaper (Android 12+).</string>
+    <string name="settings_library_title">Library</string>
+    <string name="settings_online_artwork_title">Look up artwork online</string>
+    <string name="settings_online_artwork_summary">Downloads missing artwork from the Internet and caches it. Needs a connection and is off by default.</string>
+
+    <!-- Counts -->
+    <plurals name="library_song_count">
+        <item quantity="one">%d song</item>
+        <item quantity="other">%d songs</item>
+    </plurals>
+    <plurals name="library_album_count">
+        <item quantity="one">%d album</item>
+        <item quantity="other">%d albums</item>
+    </plurals>
+
+    <!-- Player -->
+    <string name="player_now_playing">Now playing</string>
+    <string name="player_play">Play</string>
+    <string name="player_pause">Pause</string>
+    <string name="player_next">Next</string>
+    <string name="player_previous">Previous</string>
+    <string name="player_shuffle">Shuffle</string>
+    <string name="player_repeat_off">Repeat off</string>
+    <string name="player_repeat_all">Repeat all</string>
+    <string name="player_repeat_one">Repeat one</string>
+    <string name="player_back">Back</string>
+    <string name="player_nothing_playing">Nothing is playing.</string>
+
+    <!-- Playback notification -->
+    <string name="notification_channel_playback">Playback</string>
+
+    <!-- Playlists -->
+    <string name="playlists_create">Create playlist</string>
+    <string name="playlist_create_title">New playlist</string>
+    <string name="playlist_name_label">Name</string>
+    <string name="playlist_options">Playlist options</string>
+    <string name="playlist_rename">Rename</string>
+    <string name="playlist_rename_title">Rename playlist</string>
+    <string name="playlist_delete">Delete</string>
+    <string name="playlist_delete_title">Delete playlist</string>
+    <string name="playlist_delete_message">Are you sure you want to delete this playlist? This can\'t be undone.</string>
+    <string name="playlist_add_songs">Add songs</string>
+    <string name="playlist_remove_song">Remove from playlist</string>
+    <string name="playlist_already_added">Already in playlist</string>
+    <string name="playlist_empty_title">Empty playlist</string>
+    <string name="playlist_empty_message">Add songs to start listening.</string>
+
+    <!-- Actions -->
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_create">Create</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_add">Add</string>
+</resources>

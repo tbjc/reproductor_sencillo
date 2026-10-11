@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <!--
+        Falso positivo de ObsoleteSdkInt: AAPT2 solo admite <adaptive-icon>
+        en carpetas con calificador de versión v26+ (mipmap-anydpi-v26),
+        incluso cuando minSdk es 26. Moverlos a mipmap-anydpi rompe el build.
+    -->
+    <issue id="ObsoleteSdkInt">
+        <ignore regexp="mipmap-anydpi-v26" />
+    </issue>
+</lint>

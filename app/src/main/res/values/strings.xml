@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Musica</string>
+
+    <!-- Navegación -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_songs">Canciones</string>
+    <string name="nav_albums">Álbumes</string>
+    <string name="nav_artists">Artistas</string>
+    <string name="nav_playlists">Playlists</string>
+
+    <!-- Estados vacíos -->
+    <string name="home_empty_title">Tu biblioteca</string>
+    <string name="home_empty_message">Cuando Musica escanee tu dispositivo, aquí aparecerá tu música y el acceso a tus listas.</string>
+    <string name="songs_empty_title">Sin canciones</string>
+    <string name="songs_empty_message">Las canciones guardadas en tu dispositivo aparecerán aquí.</string>
+    <string name="albums_empty_title">Sin álbumes</string>
+    <string name="albums_empty_message">Los álbumes de tu biblioteca aparecerán aquí.</string>
+    <string name="artists_empty_title">Sin artistas</string>
+    <string name="artists_empty_message">Los artistas de tu biblioteca aparecerán aquí.</string>
+    <string name="playlists_empty_title">Sin playlists</string>
+    <string name="playlists_empty_message">Crea tu primera playlist y la verás aquí.</string>
+
+    <!-- Permiso de lectura de audio -->
+    <string name="media_permission_title">Acceso a tu música</string>
+    <string name="media_permission_message">Musica necesita permiso para leer los archivos de audio de tu dispositivo y mostrar tu biblioteca. Tu música permanece únicamente en tu dispositivo.</string>
+    <string name="media_permission_request">Permitir acceso</string>
+    <string name="media_permission_open_settings">Abrir ajustes</string>
+    <string name="media_permission_permanently_denied">El permiso está bloqueado. Actívalo desde los ajustes del sistema para usar Musica.</string>
+
+    <!-- Estados de carga y error -->
+    <string name="library_load_error">No se pudo cargar tu biblioteca.</string>
+    <string name="library_retry">Reintentar</string>
+
+    <!-- Nombres genéricos -->
+    <string name="unknown_artist">Artista desconocido</string>
+    <string name="unknown_album">Álbum desconocido</string>
+
+    <!-- Inicio -->
+    <string name="home_stat_songs">Canciones</string>
+    <string name="home_stat_albums">Álbumes</string>
+    <string name="home_stat_artists">Artistas</string>
+    <string name="home_recent">Recientes</string>
+
+    <!-- Ajustes -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_open">Ajustes</string>
+    <string name="settings_appearance_title">Apariencia</string>
+    <string name="settings_theme_title">Tema</string>
+    <string name="settings_theme_system">Sistema</string>
+    <string name="settings_theme_light">Claro</string>
+    <string name="settings_theme_dark">Oscuro</string>
+    <string name="settings_dynamic_color_title">Color dinámico</string>
+    <string name="settings_dynamic_color_summary">Usa los colores del fondo de pantalla (Android 12 o superior).</string>
+    <string name="settings_library_title">Biblioteca</string>
+    <string name="settings_online_artwork_title">Buscar carátulas online</string>
+    <string name="settings_online_artwork_summary">Descarga de Internet las carátulas que falten y las guarda en caché. Requiere conexión y está desactivado por defecto.</string>
+
+    <!-- Recuentos -->
+    <plurals name="library_song_count">
+        <item quantity="one">%d canción</item>
+        <item quantity="other">%d canciones</item>
+    </plurals>
+    <plurals name="library_album_count">
+        <item quantity="one">%d álbum</item>
+        <item quantity="other">%d álbumes</item>
+    </plurals>
+
+    <!-- Reproductor -->
+    <string name="player_now_playing">Reproduciendo</string>
+    <string name="player_play">Reproducir</string>
+    <string name="player_pause">Pausar</string>
+    <string name="player_next">Siguiente</string>
+    <string name="player_previous">Anterior</string>
+    <string name="player_shuffle">Aleatorio</string>
+    <string name="player_repeat_off">Repetir desactivado</string>
+    <string name="player_repeat_all">Repetir todo</string>
+    <string name="player_repeat_one">Repetir una canción</string>
+    <string name="player_back">Volver</string>
+    <string name="player_nothing_playing">No hay nada en reproducción.</string>
+
+    <!-- Notificación de reproducción -->
+    <string name="notification_channel_playback">Reproducción</string>
+
+    <!-- Playlists -->
+    <string name="playlists_create">Crear playlist</string>
+    <string name="playlist_create_title">Nueva playlist</string>
+    <string name="playlist_name_label">Nombre</string>
+    <string name="playlist_options">Opciones de la playlist</string>
+    <string name="playlist_rename">Renombrar</string>
+    <string name="playlist_rename_title">Renombrar playlist</string>
+    <string name="playlist_delete">Eliminar</string>
+    <string name="playlist_delete_title">Eliminar playlist</string>
+    <string name="playlist_delete_message">¿Seguro que quieres eliminar esta playlist? Esta acción no se puede deshacer.</string>
+    <string name="playlist_add_songs">Añadir canciones</string>
+    <string name="playlist_remove_song">Quitar de la playlist</string>
+    <string name="playlist_already_added">Ya está en la playlist</string>
+    <string name="playlist_empty_title">Playlist vacía</string>
+    <string name="playlist_empty_message">Añade canciones para empezar a escucharla.</string>
+
+    <!-- Acciones -->
+    <string name="action_back">Volver</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_create">Crear</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_add">Añadir</string>
+</resources>
